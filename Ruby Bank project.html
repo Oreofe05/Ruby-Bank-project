@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ruby Bank project.css">
+</head>
+
+<body>
+
+    <div class="dashBoard">
+
+        <div class="name"></div>
+        <div class="balance">Total Balance <span class="balanceAmount">$ </span></div>
+        <button class="history" onclick="transaction(event)">Transaction History</button>
+        <div class="transactionHistory">
+            <h1>
+                <center>Trasaction history</center>
+            </h1>
+            <ol class="list">
+
+            </ol>
+            <button onclick="done(event)">done</button>
+
+
+        </div>
+    </div>
+    <section class="mother">
+        <div class="addBalance">
+            <button onclick="amount()">
+                Fund Account</button> <br>
+            <form class="depositForm" action="">
+                <input class="deposit" type="text" placeholder="Enter amount"><br>
+                <button class="depositButton" type="submit" onclick="deposit(event)">deposit</button>
+            </form>
+
+        </div>
+        <div class="transfer">
+            <button onclick="transfer()">Transfer </button>
+            <form class="transferForm">
+                <input class="transferAmount" type="text" placeholder="Enter Amount" name="" id=""><br>
+                <input class="transferName" type="text" placeholder="Beneficial Name"><br>
+                <button onclick="submitTransfer(event)" type="submit">Transfer</button>
+            </form>
+
+        </div>
+        <div class="withdraw">
+            <button onclick="withdraw()">withdraw </button>
+            <form action="">
+                <input class="withdrawAmount" type="text" placeholder="Enter amount" name="" id=""><br>
+                <button class="submitWithdraw" onclick="submitWithdrawButton(event)">withdraw</button>
+            </form>
+
+        </div>
+
+
+    </section>
+    <script src="Ruby Bank project.js"></script>
+</body>
+
+</html>

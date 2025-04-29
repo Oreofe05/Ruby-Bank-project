@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+}
+
+.dashBoard {
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    align-content: center;
+
+}
+
+.balance {
+    position: relative;
+    left: 95px;
+    top: 10px;
+    display: grid;
+}
+
+.history {
+    position: relative;
+    left: 820px;
+    top: 10px;
+    background-color: red;
+    height: 40px;
+    width: 190px;
+}
+
+.transactionHistory {
+    position: absolute;
+    left: 1150px;
+    top: 10px;
+    background-color: white;
+    width: 290px;
+    height: 400px;
+    display: none;
+
+}
+
+.balanceAmount {
+    position: relative;
+    bottom: 15px
+}
+
+.name {
+    color: blue;
+    font-size: xx-large;
+    font-family: cursive;
+    margin-left: 35px;
+}
+
+.addBalance {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    left: 60%;
+
+
+}
+
+.deposit {
+    width: 80px;
+    display: none;
+}
+
+.depositButton {
+    display: none;
+}
+
+.submitWithdraw {
+    display: none;
+}
+
+
+.transfer {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 100%;
+}
+
+.withdraw {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 150%;
+}
+
+.mother {
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+}
+
+.transferForm {
+    display: none;
+}
+
+.withdrawForm {
+    display: none;
+}
+
+.withdrawAmount {
+    display: none;
+}
+
+.addBalance:hover {
+    height: 100px;
+    width: 180px;
+}
+
+.transfer:hover {
+    height: 120px;
+    width: 180px;
+}
+
+.withdraw:hover {
+    height: 100px;
+    width: 180px;
+}

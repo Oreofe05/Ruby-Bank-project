@@ -1,0 +1,67 @@
+.mother {
+    height: 700px;
+
+    background-color: blue;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: teal;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.login {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    margin: 30px auto;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0px 9px 12px 18px black;
+    border-radius: 100px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px dotted;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.loginButton {
+    width: 150px;
+}
+
+.signUp {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    margin: 30px auto;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0px 9px 12px 18px black;
+    border-radius: 100px;
+    position: relative;
+    bottom: 509px;
+    display: none;
+}
