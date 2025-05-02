@@ -1,4 +1,4 @@
-const user = JSON.parse(localStorage.getItem("UserInfo"))
+const user = JSON.parse(localStorage.getItem("UsersInfo"))
 const greeting = document.querySelector(".name")
 
 greeting.textContent = `Hi ${user.username}`
